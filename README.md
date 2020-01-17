@@ -1,4 +1,4 @@
-# exchange-rates-percentange Frontend Projects Site
+# Frontend Projects Site
 
 # About
 
