@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Projects Site
 
 # About
@@ -14,3 +15,6 @@ This is a coding project of Foreigen Currency Exchange Rates Bar-Chart
 
 
 
+=======
+# exchange-rates-percentages
+>>>>>>> dd83e45fcedf24d40c2c842de894f47a44df78a7
