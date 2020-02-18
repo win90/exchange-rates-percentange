@@ -8,10 +8,66 @@
     <title>Currency Exchange Rates</title>
 </head>
 <body>
-    <h1 >Currency Exchange Rates </h1> 
-    <section>
-        
-        <div class ="box">
+ 
+    <section class = "TitleBar">
+        <h1>Currency Exchange Rates</h1>
+        <div  class = "CurrencyChooser">  
+
+            <button id= "rates">Get API Data</button>
+            <div id = "output"></div> 
+     
+            <label> Lists of Countries Currency:
+                <select class ="CurrencyChooser-select">
+                <option>EUR</option>
+                <option>CAD</option>
+                <option>HKD</option>
+                <option>ISK</option>
+                <option>PHP</option>
+                <option>DKK</option>
+                <option>HUF</option>
+                <option>CZK</option>
+                <option>AUD</option>
+                <option>RON</option>
+                <option>SEK</option>
+                <option>IDR</option>
+                <option>INR</option>
+                <option>BRL</option>
+                <option>RUB</option>
+                <option>HRK</option>
+                <option>JPY</option>
+                <option>THB</option>
+                <option>CHF</option>
+                <option>SGD</option>
+                <option>PLN</option>
+                <option>BGN</option>
+                <option>TRY</option>
+                <option>NOK</option>
+                <option>NZD</option>
+                <option>ZAR</option>
+                <option>USD</option>
+                <option>MXN</option>
+                <option>ILS</option>
+                <option>GBP</option>
+                <option>KRW</option>
+                <option>MYR</option>
+                </select>
+            </label>
+        </div>
+    </section>
+     <section class = "MainContainer">
+         <div class = " CurrencyCheckboxList">
+             <label><input type="CheckBox"><span>EUR</span></label>
+         </div>
+         <div class = " CurrencyCheckboxList">
+            <label><input type="CheckBox"><span>USD</span></label>
+        </div>
+
+
+
+     </section>
+    
+
+    <div class ="box">
             <div class ="barchart">
                 <div onclick="alert('EUR costs  1.092pounds')"
                 class="graph" style="height: 91%">
@@ -69,8 +125,7 @@
             </div>
         
         </div>
-        </section>
-            
-
+        
+        <script src="./js/main.js"></script>
 </body>
 </html>
